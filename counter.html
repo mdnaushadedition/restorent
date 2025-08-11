@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            counter-reset: section;
+        }
+
+        h2::before{
+            counter-increment: section;
+            content: "section no. " counter(section) " ";
+            text-transform: capitalize;
+        }
+
+        h2 {
+            counter-reset: subsection;
+        }
+
+        h3::before {
+            counter-increment: subsection;
+            content: counter(section) "." counter(subsection) ":";
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- <h2>section one</h2>
+    <p>this thi one section</p>
+
+    <h2>section two </h2>
+    <p>this thi two section</p>
+
+    <h2>section three</h2>
+    <p>this thi three section</p>
+
+    <h2>section four</h2>
+    <p>this thi four section</p>
+
+    <h2>section five</h2>
+    <p>this thi five section</p>
+
+    <h2>section six</h2>
+    <p>this thi six section</p>
+    <h2>section seven</h2>
+    <p>this thi seven section</p>
+    <h2>section eight</h2>
+    <p>this thi eight section</p> -->
+
+    <h2>section one</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+    <h2>section one</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+    <h2>section one</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+    <h2>section one</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+    <h2>section one</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+    <h3>subsection</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus.</p>
+
+    <h2>Hello</h2>
+    <h3> </h3>
+</body>
+
+</html>

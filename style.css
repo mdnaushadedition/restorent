@@ -1,0 +1,184 @@
+
+header{
+margin: 0 50px;
+}
+.left div{
+    display: inline-block;
+    font-size: large; 
+    padding: 10px;
+}
+.right div{
+    display: inline-block;
+    font-size: large; 
+    padding: 10px; 
+    margin-top: 10px;
+}
+.h6{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cer{
+    rotate: 40deg;
+    font-size: xx-large;
+}
+p{
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 20px;
+    margin-top: 100px;
+}
+.name{
+    font-size: 70px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 30px;
+}
+.n-letter{
+    font-size: 150px ;
+    margin-top: 10px;
+    vertical-align: middle;
+
+
+}
+.cap{
+    margin-left: 100px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 60px;
+}
+nav div {
+    padding: 10px 50px;
+    font-weight: bold;
+}
+nav div:hover {
+    text-decoration: 2px solid underline;
+    text-underline-offset: 10px;
+}
+.pcont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one{
+    width: 380px;
+    margin: 10px;
+    height: 450px;
+}
+.pcon2{
+    width: 500px;
+    margin: 10px;
+
+}
+.pcon3{
+    width: 320px;
+    margin: 10px;
+}
+a:hover{
+ color: red;
+}
+
+
+hr{
+    border: 2px solid white;
+}
+.Season{
+    background-color: rgba(128, 128, 128, 0.604);
+    border-radius: 20px;
+    margin-bottom: 70px;
+
+}
+.container111{
+    display: flex;
+    margin: 10px 50px; 
+}
+.container111 div{
+    margin: 10px; 
+}
+.container102{
+    display: flex;
+    margin: 10px 50px;
+    flex-wrap: wrap;
+}
+.container101{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.firstline{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-left: 12px;
+    text-align: center;
+}
+h3{
+  margin-left: 12px;
+  margin-top: 2px;
+ font-size: large;
+}
+h2{
+    margin-left: 20px;
+}
+.caption{
+    margin-left: 12px;
+    margin-top: 2px;
+}
+.container100{
+    display: flex;
+    margin: 10px 50px;
+    flex-wrap: wrap;
+}
+.container100 div{
+    margin: 10px;
+    width: 380px;
+}
+.container101 div{
+    margin: 30px;
+    width: 260px;
+}
+.container102 div{
+    margin: 10px;
+    width: 400px;
+}
+.content{
+    font-size: x-large;
+    padding: 20px;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    word-spacing: 10px;
+}
+footer{
+    background-color: rgb(117, 116, 116);
+}
+.foter1{
+    text-align: center;
+}
+.foter1 div{
+    display: inline-block;
+    font-size: xx-large;
+    padding: 10px;
+}
+.foter2{
+    word-spacing: 8px;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.block-container100{
+    display: block;
+    width: 700px;
+
+}
+img:hover{
+    transform: scale(1.1);
+
+}
